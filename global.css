@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+.container {
+  background-color: #ffbd59;
+  padding: 40px;
+  flex-direction: row;
+  gap: 30px;
+}
+
+html, body {
+  min-height: 100%;
+  background-color: #ffbd59;
+  font-family: Montserrat;
+}
+
+.navbar {
+  height: 80px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #b1b1b1;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px
+}

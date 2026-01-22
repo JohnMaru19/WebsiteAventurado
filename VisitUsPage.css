@@ -1,0 +1,53 @@
+.visit-container {
+  background-color: #ffbd59;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.visit-box {
+  background-color: #ff751f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  color: #000;
+  font-weight: 500;
+}
+
+.small-box {
+  width: 60%;
+  height: 80px;
+}
+
+.large-box {
+  width: 80%;
+  height: 300px;
+}
+
+.fade-up {
+  opacity: 0;
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.delay-1 {
+  animation-delay: 0.1s;
+}
+
+.delay-2 {
+  animation-delay: 0.3s;
+}
